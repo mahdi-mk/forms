@@ -26,13 +26,13 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Filament\\Forms\\": "src"
+            "MahdiMk\\Forms\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Filament\\Forms\\FormsServiceProvider"
+                "MahdiMk\\Forms\\FormsServiceProvider"
             ]
         }
     },

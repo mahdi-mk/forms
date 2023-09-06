@@ -1,10 +1,10 @@
 <?php
 
-namespace Filament\Forms\Components\Concerns;
+namespace MahdiMk\Forms\Components\Concerns;
 
 use Closure;
-use Filament\Forms\Components\Contracts;
-use Filament\Forms\Components\Contracts\CanHaveNumericState;
+use MahdiMk\Forms\Components\Contracts;
+use MahdiMk\Forms\Components\Contracts\CanHaveNumericState;
 
 trait CanBeLengthConstrained
 {

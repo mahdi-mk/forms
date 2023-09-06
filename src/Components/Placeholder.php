@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\Forms\Components;
+namespace MahdiMk\Forms\Components;
 
 class Placeholder extends Component implements Contracts\HasHintActions
 {

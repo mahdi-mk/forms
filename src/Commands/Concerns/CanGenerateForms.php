@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\Forms\Commands\Concerns;
+namespace MahdiMk\Forms\Commands\Concerns;
 
 use Doctrine\DBAL\Types;
-use Filament\Forms;
+use MahdiMk\Forms;
 use Illuminate\Support\Str;
 
 trait CanGenerateForms
@@ -135,7 +135,7 @@ trait CanGenerateForms
 
         foreach ($components as $componentName => $componentData) {
             // Constructor
-            $output .= (string) str($componentData['type'])->after('Filament\\');
+            $output .= (string) str($componentData['type'])->after('MahdiMk\\');
             $output .= '::make(\'';
             $output .= $componentName;
             $output .= '\')';

@@ -1,8 +1,8 @@
 <?php
 
-namespace Filament\Forms;
+namespace MahdiMk\Forms;
 
-use Filament\Forms\Testing\TestsForms;
+use MahdiMk\Forms\Testing\TestsForms;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
@@ -64,7 +64,7 @@ class FormsServiceProvider extends PackageServiceProvider
         $aliases = [];
 
         foreach ($commands as $command) {
-            $class = 'Filament\\Forms\\Commands\\Aliases\\' . class_basename($command);
+            $class = 'MahdiMk\\Forms\\Commands\\Aliases\\' . class_basename($command);
 
             if (! class_exists($class)) {
                 continue;

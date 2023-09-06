@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\Forms\Components;
+namespace MahdiMk\Forms\Components;
 
 use Closure;
-use Filament\Forms\Components\Tabs\Tab;
+use MahdiMk\Forms\Components\Tabs\Tab;
 use Filament\Support\Concerns;
 
 class Tabs extends Component

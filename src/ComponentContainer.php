@@ -1,8 +1,8 @@
 <?php
 
-namespace Filament\Forms;
+namespace MahdiMk\Forms;
 
-use Filament\Forms\Contracts\HasForms;
+use MahdiMk\Forms\Contracts\HasForms;
 use Filament\Support\Components\ViewComponent;
 use Illuminate\Database\Eloquent\Model;
 

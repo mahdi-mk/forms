@@ -1,8 +1,8 @@
 <?php
 
-namespace Filament\Forms\Commands;
+namespace MahdiMk\Forms\Commands;
 
-use Filament\Forms\Commands\Concerns\CanGenerateForms;
+use MahdiMk\Forms\Commands\Concerns\CanGenerateForms;
 use Filament\Support\Commands\Concerns\CanIndentStrings;
 use Filament\Support\Commands\Concerns\CanManipulateFiles;
 use Filament\Support\Commands\Concerns\CanReadModelSchemas;

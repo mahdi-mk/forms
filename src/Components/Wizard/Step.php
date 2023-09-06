@@ -1,10 +1,10 @@
 <?php
 
-namespace Filament\Forms\Components\Wizard;
+namespace MahdiMk\Forms\Components\Wizard;
 
 use Closure;
-use Filament\Forms\Components\Component;
-use Filament\Forms\Components\Contracts\CanConcealComponents;
+use MahdiMk\Forms\Components\Component;
+use MahdiMk\Forms\Components\Contracts\CanConcealComponents;
 use Illuminate\Support\Str;
 
 class Step extends Component implements CanConcealComponents

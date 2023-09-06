@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\Forms\Components;
+namespace MahdiMk\Forms\Components;
 
 /**
  * @deprecated Use `Repeater` with the `relationship()` method instead.

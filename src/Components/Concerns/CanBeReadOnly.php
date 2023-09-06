@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\Forms\Components\Concerns;
+namespace MahdiMk\Forms\Components\Concerns;
 
 use Closure;
-use Filament\Forms\Contracts\HasForms;
+use MahdiMk\Forms\Contracts\HasForms;
 use Illuminate\Support\Arr;
 
 trait CanBeReadOnly

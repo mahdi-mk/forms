@@ -22,7 +22,7 @@
 @php
     if ($field) {
         $hasInlineLabel ??= $field->hasInlineLabel();
-        $hasNestedRecursiveValidationRules ??= $field instanceof \Filament\Forms\Components\Contracts\HasNestedRecursiveValidationRules;
+        $hasNestedRecursiveValidationRules ??= $field instanceof \MahdiMk\Forms\Components\Contracts\HasNestedRecursiveValidationRules;
         $helperText ??= $field->getHelperText();
         $hint ??= $field->getHint();
         $hintActions ??= $field->getHintActions();
@@ -40,7 +40,7 @@
 
     $hintActions = array_filter(
         $hintActions ?? [],
-        fn (\Filament\Forms\Components\Actions\Action $hintAction): bool => $hintAction->isVisible(),
+        fn (\MahdiMk\Forms\Components\Actions\Action $hintAction): bool => $hintAction->isVisible(),
     );
 
     $hasError = $errors->has($statePath) || ($hasNestedRecursiveValidationRules && $errors->has("{$statePath}.*"));

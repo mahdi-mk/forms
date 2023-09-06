@@ -1,10 +1,10 @@
 <?php
 
-namespace Filament\Forms\Components\MorphToSelect;
+namespace MahdiMk\Forms\Components\MorphToSelect;
 
 use Closure;
 use Exception;
-use Filament\Forms\Components\Select;
+use MahdiMk\Forms\Components\Select;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

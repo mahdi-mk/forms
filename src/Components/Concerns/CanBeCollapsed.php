@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\Forms\Components\Concerns;
+namespace MahdiMk\Forms\Components\Concerns;
 
 use Closure;
-use Filament\Forms\ComponentContainer;
+use MahdiMk\Forms\ComponentContainer;
 
 trait CanBeCollapsed
 {

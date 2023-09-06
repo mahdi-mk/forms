@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Filament\Forms\Components\Field;
+use MahdiMk\Forms\Components\Field;
 
 class {{ class }} extends Field
 {

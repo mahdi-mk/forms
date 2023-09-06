@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\Forms\Components\Concerns;
+namespace MahdiMk\Forms\Components\Concerns;
 
-use Filament\Forms\ComponentContainer;
-use Filament\Forms\Contracts\HasForms;
+use MahdiMk\Forms\ComponentContainer;
+use MahdiMk\Forms\Contracts\HasForms;
 
 trait BelongsToContainer
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\Forms\Components\Concerns;
+namespace MahdiMk\Forms\Components\Concerns;
 
-use Filament\Forms\Components\Component;
-use Filament\Forms\Components\Contracts\CanConcealComponents;
+use MahdiMk\Forms\Components\Component;
+use MahdiMk\Forms\Components\Contracts\CanConcealComponents;
 
 trait CanBeConcealed
 {

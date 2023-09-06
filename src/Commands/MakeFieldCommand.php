@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\Forms\Commands;
+namespace MahdiMk\Forms\Commands;
 
 use Filament\Support\Commands\Concerns\CanManipulateFiles;
 use Illuminate\Console\Command;

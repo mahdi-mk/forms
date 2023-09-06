@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\Forms\Concerns;
+namespace MahdiMk\Forms\Concerns;
 
-use Filament\Forms\Components\Contracts\HasFileAttachments;
-use Filament\Forms\Components\Field;
+use MahdiMk\Forms\Components\Contracts\HasFileAttachments;
+use MahdiMk\Forms\Components\Field;
 
 trait SupportsComponentFileAttachments
 {

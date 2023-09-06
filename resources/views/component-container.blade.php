@@ -23,7 +23,7 @@
         @endphp
 
         <x-filament::grid.column
-            :wire:key="$formComponent instanceof \Filament\Forms\Components\Field ? $this->getId() . '.' . $formComponent->getStatePath() . '.' . $formComponent::class : null"
+            :wire:key="$formComponent instanceof \MahdiMk\Forms\Components\Field ? $this->getId() . '.' . $formComponent->getStatePath() . '.' . $formComponent::class : null"
             :hidden="$isHidden"
             :default="$formComponent->getColumnSpan('default')"
             :sm="$formComponent->getColumnSpan('sm')"

@@ -1,8 +1,8 @@
 <?php
 
-namespace Filament\Forms\Concerns;
+namespace MahdiMk\Forms\Concerns;
 
-use Filament\Forms\Contracts\HasForms;
+use MahdiMk\Forms\Contracts\HasForms;
 
 trait BelongsToLivewire
 {

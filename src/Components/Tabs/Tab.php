@@ -1,10 +1,10 @@
 <?php
 
-namespace Filament\Forms\Components\Tabs;
+namespace MahdiMk\Forms\Components\Tabs;
 
 use Closure;
-use Filament\Forms\Components\Component;
-use Filament\Forms\Components\Contracts\CanConcealComponents;
+use MahdiMk\Forms\Components\Component;
+use MahdiMk\Forms\Components\Contracts\CanConcealComponents;
 use Filament\Support\Concerns\HasIcon;
 use Illuminate\Support\Str;
 

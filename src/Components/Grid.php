@@ -1,8 +1,8 @@
 <?php
 
-namespace Filament\Forms\Components;
+namespace MahdiMk\Forms\Components;
 
-use Filament\Forms\Components\Contracts\CanEntangleWithSingularRelationships;
+use MahdiMk\Forms\Components\Contracts\CanEntangleWithSingularRelationships;
 
 class Grid extends Component implements CanEntangleWithSingularRelationships
 {

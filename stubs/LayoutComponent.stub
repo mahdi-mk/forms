@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Filament\Forms\Components\Component;
+use MahdiMk\Forms\Components\Component;
 
 class {{ class }} extends Component
 {

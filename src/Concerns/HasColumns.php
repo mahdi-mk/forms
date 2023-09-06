@@ -1,8 +1,8 @@
 <?php
 
-namespace Filament\Forms\Concerns;
+namespace MahdiMk\Forms\Concerns;
 
-use Filament\Forms\ComponentContainer;
+use MahdiMk\Forms\ComponentContainer;
 
 trait HasColumns
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Filament\Forms\Concerns;
+namespace MahdiMk\Forms\Concerns;
 
 use Closure;
-use Filament\Forms\Components\Component;
-use Filament\Forms\Components\Field;
+use MahdiMk\Forms\Components\Component;
+use MahdiMk\Forms\Components\Field;
 
 trait HasComponents
 {

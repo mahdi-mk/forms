@@ -1,10 +1,10 @@
 <?php
 
-namespace Filament\Forms\Components\Concerns;
+namespace MahdiMk\Forms\Components\Concerns;
 
 use Closure;
-use Filament\Forms\Components\Component;
-use Filament\Forms\Contracts\HasForms;
+use MahdiMk\Forms\Components\Component;
+use MahdiMk\Forms\Contracts\HasForms;
 use Illuminate\Support\Arr;
 
 trait CanBeDisabled

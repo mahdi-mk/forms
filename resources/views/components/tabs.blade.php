@@ -33,7 +33,7 @@
         $attributes
             ->merge([
                 'id' => $getId(),
-                'wire:key' => "{$this->getId()}.{$getStatePath()}." . \Filament\Forms\Components\Tabs::class . '.container',
+                'wire:key' => "{$this->getId()}.{$getStatePath()}." . \MahdiMk\Forms\Components\Tabs::class . '.container',
             ], escape: false)
             ->merge($getExtraAttributes(), escape: false)
             ->merge($getExtraAlpineAttributes(), escape: false)
@@ -47,8 +47,8 @@
         type="hidden"
         value="{{
             collect($getChildComponentContainer()->getComponents())
-                ->filter(static fn (\Filament\Forms\Components\Tabs\Tab $tab): bool => $tab->isVisible())
-                ->map(static fn (\Filament\Forms\Components\Tabs\Tab $tab) => $tab->getId())
+                ->filter(static fn (\MahdiMk\Forms\Components\Tabs\Tab $tab): bool => $tab->isVisible())
+                ->map(static fn (\MahdiMk\Forms\Components\Tabs\Tab $tab) => $tab->getId())
                 ->values()
                 ->toJson()
         }}"

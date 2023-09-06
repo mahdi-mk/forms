@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\Forms\Components;
+namespace MahdiMk\Forms\Components;
 
 use Closure;
-use Filament\Forms\Components\Contracts\CanHaveNumericState;
+use MahdiMk\Forms\Components\Contracts\CanHaveNumericState;
 use Filament\Support\Concerns\HasExtraAlpineAttributes;
 use Filament\Support\RawJs;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Filament\Forms\Components\Contracts;
+namespace MahdiMk\Forms\Components\Contracts;
 
-use Filament\Forms\Components\Actions\Action;
+use MahdiMk\Forms\Components\Actions\Action;
 
 interface HasHintActions
 {

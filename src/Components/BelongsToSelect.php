@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\Forms\Components;
+namespace MahdiMk\Forms\Components;
 
 /**
  * @deprecated Use `Select` with the `relationship()` method instead.
