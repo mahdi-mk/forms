@@ -19,6 +19,7 @@ class Component extends ViewComponent
     use Concerns\Cloneable;
     use Concerns\HasActions;
     use Concerns\HasChildComponents;
+    use Concerns\HasComponentType;
     use Concerns\HasFieldWrapper;
     use Concerns\HasId;
     use Concerns\HasInlineLabel;
@@ -58,7 +59,7 @@ class Component extends ViewComponent
     {
         $record = $this->getRecord();
 
-        if (! $record) {
+        if (!$record) {
             return parent::resolveDefaultClosureDependencyForEvaluationByType($parameterType);
         }
 
